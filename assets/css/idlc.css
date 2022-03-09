@@ -1,0 +1,31 @@
+.myticket {
+  position: absolute;
+  top: 435px;
+  left: 408px;
+  /* overflow: hidden; */
+  z-index: 3;
+}
+
+.myticketPrice {
+  position: absolute;
+  top: -94px;
+  left: 50px;
+  /* overflow: hidden; */
+  z-index: 3;
+}
+
+.myticketPricePRO {
+  position: absolute;
+  top: -94px;
+  left: 500px;
+  /* overflow: hidden; */
+  z-index: 3;
+}
+
+.myticketPriceVIP {
+  position: absolute;
+  top: -94px;
+  left: 900px;
+  /* overflow: hidden; */
+  z-index: 3;
+}

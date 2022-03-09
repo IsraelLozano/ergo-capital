@@ -24,6 +24,8 @@
     <!-- Main CSS -->
     <link href="assets/css/theme.min.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="assets/css/idlc.css">
+
     <title>Ergo Academy</title>
 </head>
 
@@ -34,11 +36,11 @@
         <span class="small d-block ms-2">Ergo Academy</span>
     </div>
     <!--Header Start-->
-    <header class="z-index-fixed header-transparent header-absolute-top sticky-reverse">
-        <nav class="navbar navbar-expand-lg navbar-light navbar-link-white">
+    <header class="z-index-fixed header-center-logo">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-link-white bg-dark">
             <div class="container position-relative">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/ergo-capital/logoMasterClass_100.png" alt="" width="75%" class="" />
+                    <img src="assets/img/ergo-capital/logo-texto.png" style="width: 150px" />
                     <!-- <img src="assets/img/ergo-capital/logoMasterClass_100.png" alt="" width="75%" class="" /> -->
                 </a>
                 <div class="d-flex align-items-center navbar-no-collapse-items order-lg-last">
@@ -52,26 +54,63 @@
 
                 </div>
 
+
                 <div class="collapse navbar-collapse" id="mainNavbarTheme">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item me-lg-3">
-                            <a href="#exp" class="nav-link">Experiencia</a>
+                    <!--Navbar left-->
+                    <ul class="navbar-nav me-lg-auto">
+                        <li class="nav-item">
+                            <img src="assets/img/ergo-capital/logo-Mesa-trabajo.png" width="80px" />
                         </li>
+                        <li class="nav-item">
 
-                        <li class="nav-item me-lg-3">
-                            <a href="#mt" class="nav-link">Master</a>
                         </li>
+                        <li class="nav-item">
 
-                        <li class="nav-item me-lg-3">
-                            <a href="registro.html" class="nav-link">Contacto</a>
                         </li>
-
                     </ul>
+
+                    <!--Navbar right-->
+                    <ul class="navbar-nav ms-lg-auto text-white">
+
+
+                        <li class="nav-item">
+                            <div data-aos="fade-up">
+                                <a href="https://www.instagram.com/ergocapitalfx/" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="" data-bs-original-title="Instagram Ergo Capital"
+                                    class="d-inline-block mb-1 me-2 si rounded-pill si-hover-instagram" target="_blank">
+                                    <i class="bx bxl-instagram fs-2"></i>
+                                    <i class="bx bxl-instagram fs-2"></i>
+                                </a>
+
+                            </div>
+
+
+
+                        </li>
+                        <li class="nav-item">
+                            <div data-aos="fade-up">
+
+                                <a href="https://www.instagram.com/ergocapitalfx/" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="" data-bs-original-title="Instagram Ergo Academy"
+                                    class="d-inline-block mb-1 me-2 si rounded-pill si-hover-instagram" target="_blank">
+                                    <i class="bx bxl-instagram fs-2"></i>
+                                    <i class="bx bxl-instagram fs-2"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div data-aos="fade-up">
+
+                                <a href="#!" class="d-inline-block mb-1 me-2 si rounded-pill si-hover-whatsapp">
+                                    <i class="bx bxl-whatsapp fs-2"></i>
+                                    <i class="bx bxl-whatsapp fs-1"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+
                 </div>
-
-
-
-
 
             </div>
         </nav>
@@ -82,57 +121,69 @@
         <!--page-hero-master-slider-->
         <!-- <section class="position-relative bg-shade-info text-white overflow-hidden jarallax" data-jarallax=".3"> -->
 
-        <section class="position-relative vh-100 d-flex align-items-center bg-dark text-white">
-            <!--Video Vimeo-->
+        <section class="position-relative overflow-hidden bg-dark text-white">
+            <!--Video Vimeo
             <div class="jarallax bg-dark h-100 w-100 position-absolute start-0 top-0 opacity-50"
                 data-jarallax-video="https://www.youtube.com/watch?v=V_romThfA0I">
-            </div>
+            </div>-->
+            <img src="assets/img/ergo-capital/header-erick-alone.png" alt="" class="bg-image opacity-75">
+
             <!--Container-->
-            <div class="container py-9 py-lg-11 position-relative z-index-1">
-                <div class="row pt-7 align-items-center">
-                    <div class="col-lg-10 mx-auto text-center mb-5 mb-lg-0">
-                        <!--Hero heading-->
-                        <h4 class="display-2 mb-4 mb-lg-5" data-aos="fade-up">
-                            BIENVENIDOS A LA MASTER CLASS DE ERGO
-                        </h4>
+            <div class="container position-relative pt-12 pb-12">
+                <div class="row py-lg-7">
+                    <div class="col-md-5 col-xl-4">
+                        <div
+                            class="p-4 p-lg-5 rounded-3 bg-secondary bg-opacity-50 text-white shadow-lg z-index-1 position-relative">
+                            <!--Pricing card background-->
+                            <div
+                                class="position-absolute start-0 top-0 w-100 h-100 bg-gradient-dark opacity-50 rounded-3">
+                            </div>
+                            <div class="position-relative z-index-1">
+                                <!--Plan type-->
+                                <img src="assets/img/ergo-capital/price-main.png" width="110%">
 
-                        <h3 class="display-9 w-lg-75 w-md-80 opacity-75 mb-6 mx-auto" data-aos="fade-up">
-                            CREA UN IMPACTO. CONSTRUYE TU FUTURO
-                        </h3>
+                                <!--Plan price-->
 
 
-                        <p class="w-lg-75 w-md-80 opacity-75 mb-6 mx-auto" data-aos="fade-up">
-                            ERGO sigue elevando el estandar del trading dia a dia. A traves de nuestras master class,
-                            eventos que cambian tu vida y tutorias de alto nivel, cambiaremos millones de vidas en todo
-                            el Perú y el mundo
-                        </p>
-                        <!--Parallax-image-->
-                        <div class="position-relative start-50 top-10 mt-0 ms-0 width-15x h-auto" data-aos="fade-right"
-                            style="left: 43% !important;">
-                            <img src="assets/img/ergo-capital/logoMasterClass_200.png" class="img-fluid">
-                        </div>
+                                <p class="fw-bolder text-center mb-6 text-gradient-light"> <strong>7 de Mayo -
+                                        Westin</strong></p>
+                                <p class="text-white text-opacity-75 text-center d-block"> ¡Sé de los
+                                    primeros en conseguir tu entrada!</p>
+                                <p class="text-white text-opacity-75 text-center d-block"> Mucho más que una Master
+                                    Class, vive una
+                                    experiencia única
+                                    con nosotros.</p>
 
-                        <br>
-                        <br>
 
-                        <div class="text-center">
-                            <a href="#exp"
-                                class="btn p-5 width-8x height-8x btn-outline-white btn-circle-ripple shadow-lg rounded-circle flex-center d-flex text-center mx-auto">
-                                <div class="link-arrow-bounce">
-                                    <i class="bx bx-chevron-down fs-2"></i>
+                                <!--Plan action button-->
+                                <div class="d-grid mb-3">
+                                    <a href="#" class="btn btn-lg btn-primary">Obtener mi entrada</a>
                                 </div>
-                            </a>
-                        </div>
 
-                        <!--Hero action-->
-                        <!-- <div class="d-flex align-items-center justify-content-center">
-                            <a href="#section" class="btn btn-outline-white border-2 btn-lg me-2 me-lg-3">Empieza
-                                ahora</a>
-                        </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-7 mb-md-0 mb-7 text-white text-center">
+                        <!--Hero heading-->
+
+
+                        <!--Scroll down animated
+                            button-->
+                        <div class="myticket">
+
+                            <img src="assets/img/ergo-capital/tikect-header.png" width="110%">
+                        </div>
                     </div>
                 </div>
             </div>
+
+
+
         </section>
+
+
 
         <section class="position-relative bg-dark text-white overflow-hidden jarallax" id="exp">
             <img src="./assets/img/ergo-capital/anthony-delanoix-b5POxb2aL9o-unsplash-modified-1.jpg" alt=""
@@ -144,118 +195,256 @@
                     <div class="col-lg-10 col-xl-9 mx-auto text-center">
 
                         <h2 class="display-4 mb-4" data-aos="fade-up">
-                            Elige tu Experiencia
+                            Selecciona tu experiencia Master Class
+                            <script>
+                                document.write(new Date().getFullYear())
+
+                            </script>
                         </h2>
                         <!--Divider line-->
                         <span class="width-7x pt-1 mx-auto bg-gradient-primary d-table" data-aos="fade-down"></span>
+                        <br>
+                        <h3 class="mb-4 fw-bolder text-center mb-6 text-gradient-light" data-aos="fade-up">
+                            ¡Tendremos animación, comida, regalos, frading, en vivo y mucho más!
+                        </h3>
+
                     </div>
                 </div>
 
                 <div class="mb-9 mb-lg-11 position-relative">
-                    <div class="row g-md-2 align-items-end justify-content-center position-relative z-index-1">
 
 
-                        <div class="col-md-4 mb-5 mb-md-0" data-aos="fade-up">
-                            <div
-                                class="bg-white card-hover card shadow-sm hover-lift hover-shadow-lg overflow-hidden rounded-3">
-                                <!--image-->
-                                <a href="#!" class="d-block overflow-hidden">
-                                    <img src="assets/img/ergo-capital/card-experiencia.png" alt=""
-                                        class="img-fluid img-zoom position-relative">
-                                </a>
-                                <div class="position-relative d-block p-0">
-                                    <div class="mb-4 align-items-center">
-                                        <h4 class="mb-0"></h4>
-                                        <div>
-                                        </div>
-                                    </div>
-                                    <div class="flex align-items-end mb-4 text-center"
-                                        style="background-color: #b4b4b4;">
 
-                                        <h3 class="price display-7 text-dark">
-                                            GENERAL
-                                        </h3>
-                                    </div>
-                                    <span class="badge bg-light text-reset rounded-pill"></span>
+
+                    <!--Price Container-->
+                    <div class="container">
+                        <!--Price Row-->
+                        <div class="row grid-separator">
+
+                            <!--Price col-->
+                            <div class="col-lg-4 py-9 py-lg-11 px-4 px-xl-5 bg-shade-white rounded-3">
+
+                                <div class="myticketPrice">
+                                    <img src="assets/img/ergo-capital/tikect-price-gen.png" width="50%">
+
                                 </div>
-                                <!--/.price-card-header-->
+                                <!--Price card-->
+                                <div class="card shadow bg-transparent border-0 h-100">
 
-                                <!--Action button-->
-                                <div class="flex text-center">
-                                    <a href="registro.html"
-                                        class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift w-90">
-                                        ADQUIRIR AHORA
-                                    </a>
+                                    <!--Title-->
+
+                                    <div class="mb-4 text-center">
+                                        <h2 class="display-3 mb-0"><span class="price">GENERAL</span>
+                                        </h2>
+                                    </div>
+
+                                    <!--Badge-->
+                                    <div class="mb-4 text-center">
+                                        <span class="badge badge-pill bg-success px-8">Bienvenido</span>
+                                    </div>
+
+
+                                    <!--Description-->
+                                    <p class="mb-4">
+                                        ¡Para aquellos que quieren un cambio en su vida.
+                                    </p>
+
+                                    <!--Features-->
+                                    <h6 class="mb-3">Incluido</h6>
+                                    <ul class="list-unstyled mb-0 flex-grow-1">
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Ingreso a la MASTER CLASS de 5 horas por la puerta general.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Coffee Break & Bebidas Complementarias.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Agenda & Lapicero ERGO totalmente gratis.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Preguntas & Conversación publica con Erick Goñi.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>¡Analisis en VIVO!</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="mb-4 text-center">
+                                        <h2 class="display-3 mb-0">
+                                            <span class="fs-6 align-top text-muted lh-1 fw-normal">$
+                                            </span>
+                                            <span class="price">XXX
+                                            </span>
+                                        </h2>
+                                    </div>
+                                    <!--Action-->
+                                    <div class="pt-4 d-grid">
+                                        <a href="#!" class="btn btn-outline-primary btn-lg">
+                                            Consigue tu entrada
+                                        </a>
+                                    </div>
                                 </div>
-                                <br>
-                                <br>
+                            </div>
+                            <!--Price col-->
+                            <div class="col-lg-4 py-9 py-lg-11 px-4 px-xl-5 bg-shade-info rounded-3">
+
+                                <div class="myticketPricePRO">
+                                    <img src="assets/img/ergo-capital/tikect-price-pro.png" width="50%">
+
+                                </div>
+
+                                <!--Price card-->
+                                <div class="card shadow bg-transparent border-0 h-100">
+                                    <!--Title-->
+
+                                    <div class="mb-4 text-center">
+                                        <h2 class="display-3 mb-0"><span class="price">PRO</span>
+                                        </h2>
+                                    </div>
+
+                                    <!--Badge-->
+                                    <div class="mb-4 text-center">
+                                        <span class="badge badge-pill bg-success px-8">Más popular</span>
+                                    </div>
+
+
+                                    <!--Description-->
+                                    <p class="mb-4">
+                                        Para aquellos que son serios y quieren algo extra.
+                                    </p>
+
+                                    <!--Features-->
+                                    <h6 class="mb-3">Incluido</h6>
+                                    <ul class="list-unstyled mb-0 flex-grow-1">
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Ingreso a la MASTER CLASS de 5 horas por la puerta general.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Coffee Break & Bebidas Complementarias.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Agenda, lapicero, mascarilla & tomatodo fluye ERGO. </span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>¡Zoom privado de analisis de mercado en vivo!</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="mb-4 text-center">
+                                        <h2 class="display-3 mb-0">
+                                            <span class="fs-6 align-top text-muted lh-1 fw-normal">$
+                                            </span>
+                                            <span class="price">197
+                                            </span>
+                                        </h2>
+                                    </div>
+
+                                    <!--Action-->
+                                    <div class="pt-4 d-grid">
+                                        <a href="#!" class="btn btn-lg btn-primary">
+                                            Conviertete en PRO
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="myticketPriceVIP">
+                                <img src="assets/img/ergo-capital/tikect-price-vip.png" width="30%">
+
+                            </div>
+
+                            <!--Price col-->
+                            <div class="col-lg-4 py-9 py-lg-11 px-4 px-xl-5 bg-shade-primary rounded-3">
+
+
+
+                                <!--Price card-->
+                                <div class="card shadow bg-transparent border-0 h-100 text-white">
+
+                                    <!--Title-->
+
+                                    <div class="mb-4 text-center">
+                                        <h2 class="display-3 mb-0"><span class="price">VIP</span>
+                                        </h2>
+                                    </div>
+
+                                    <!--Badge-->
+                                    <div class="mb-4 text-center">
+                                        <span class="badge badge-pill bg-success px-8">Mejor valor</span>
+                                    </div>
+
+
+                                    <!--Description-->
+                                    <p class="mb-4">
+                                        ¡Para aquellos que quieren que su vida cambie HOY!
+                                    </p>
+
+                                    <!--Features-->
+                                    <h6 class="mb-3">Incluido</h6>
+                                    <ul class="list-unstyled mb-0 flex-grow-1">
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Ingreso a la MASTER CLASS de 5 horas por la puerta general.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Coffee Break & Bebidas Complementarias + Corcho ERGO.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Agenda, lapicero, mascarilla & tomatodo fluye ERGO. </span>
+                                        </li>
+                                        <li class="d-flex align-items-center mb-1">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>¡Zoom privado de analisis de mercado en vivo!</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>Cena PRIVADA en restaurante TOP con ERICK GOÑI.</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="me-2 fs-4 bx bx-check lh-sm text-muted"></i>
+                                            <span>¡Cuenta BONO DE $500 para operar en ERGO CAPITAL!</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mb-4 text-center">
+                                        <h2 class="display-3 mb-0">
+                                            <span class="fs-6 align-top text-muted lh-1 fw-normal">$
+                                            </span>
+                                            <span class="price">497
+                                            </span>
+                                        </h2>
+                                    </div>
+                                    <!--Action-->
+                                    <div class="pt-4 d-grid">
+                                        <a href="#!" class="btn btn-lg btn-outline-primary">
+                                            Vive la experiencia
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!--/.col-->
-                        <div class="col-md-4 mb-5 mb-md-0" data-aos="fade-down">
-                            <div
-                                class="bg-white card-hover card shadow-sm hover-lift hover-shadow-lg overflow-hidden rounded-3">
-                                <a href="#!" class="d-block overflow-hidden">
-                                    <img src="assets/img/ergo-capital/card-experiencia_pro.png" alt=""
-                                        class="img-fluid img-zoom position-relative">
-                                </a>
-                                <div class="position-relative d-block p-0 bg-gradient">
-                                    <div class="mb-4 align-items-center">
-                                        <h4 class="mb-0"></h4>
-                                        <div></div>
-                                    </div>
-                                    <div class="flex align-items-end mb-4 text-center"
-                                        style="background-color: #00ff00;">
-                                        <h3 class="price display-7 text-dark">PRO</h3>
-                                    </div>
-                                    <span class="badge bg-light text-reset rounded-pill"></span>
-                                </div>
-                                <!--/.price-card-header-->
-                                <!--Action button-->
-                                <div class="flex text-center">
-                                    <a href="registro.html"
-                                        class="btn btn-outline-secondary btn-hover-arrow rounded-pill hover-lift w-90">
-                                        ADQUIRIR AHORA
-                                    </a>
-                                </div> <br>
-                                <br>
-                            </div>
-                        </div>
-                        <!--/.col-->
-                        <div class="col-md-4 mb-5 mb-md-0" data-aos="fade-up">
-                            <div
-                                class="bg-white card-hover card shadow-sm hover-lift hover-shadow-lg overflow-hidden rounded-3">
-                                <a href="#!" class="d-block overflow-hidden">
-                                    <img src="assets/img/ergo-capital/card-experiencia_vip.png" alt=""
-                                        class="img-fluid img-zoom position-relative">
-                                </a>
-                                <div class="position-relative d-block p-0 bg-gradient">
-                                    <div class="mb-4 align-items-center">
-                                        <h4 class="mb-0"></h4>
-                                        <div></div>
-                                    </div>
-                                    <div class="flex align-items-end mb-4 text-center"
-                                        style="background-color: #e3b53c;">
-                                        <h3 class="price display-7 text-dark">VIP</h3>
-                                    </div>
-                                    <span class="badge bg-light text-reset rounded-pill"></span>
-                                </div>
-                                <!--/.price-card-header-->
-
-                                <!--Action button-->
-                                <div class="flex text-center">
-                                    <a href="registro.html"
-                                        class="btn btn-primary btn-hover-arrow rounded-pill hover-lift w-90">
-                                        ADQUIRIR AHORA
-                                    </a>
-                                </div>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                        <!--/.col-->
                     </div>
-                    <!--/.pricing row-->
+                    <!--End price container-->
+
+
+
+
+
+
                 </div>
                 <!--/.Plans-container-->
 
@@ -394,6 +583,282 @@
             </div>
         </section>
 
+        <section class="position-relative bg-white overflow-hidden text-dark">
+            <div class="container position-relative py-9 py-lg-11">
+                <div class="row mb-4 mb-lg-5 align-items-end justify-content-between">
+                    <div class="col-md-8 mb-4 mb-md-0 text-dark">
+                        <h6 class="mb-3 text-italic font-serif text-dark">Testimonios</h6>
+                        <h2 class="mb-4 display-4 text-dark">Alguno comentarios de personas que tuvieron la experiencia
+                            personalizada.
+                            <!-- <span class="d-block">our
+                                <span class="d-inline-block text-primary"
+                                    data-typed="{&quot;strings&quot;: [&quot;Ideas...&quot;, &quot;Creativity...&quot;, &quot;passion...&quot;, &quot;innovation...&quot;]}">Id</span><span
+                                    class="typed-cursor" aria-hidden="true">|</span>
+                            </span> -->
+                        </h2>
+                    </div>
+                    <div class="col-md-4 text-md-end text-dark">
+                        <div class="position-relative d-flex justify-content-md-end align-items-center">
+                            <!--Buttons navigation-->
+                            <div class="swiper-testimonials-button-prev start-0 swiper-button-prev mt-0 rounded-end-0 rounded-4 position-relative width-5x height-5x me-1 rounded-circle bg-transparent text-dark border swiper-button-disabled"
+                                tabindex="-1" role="button" aria-label="Previous slide"
+                                aria-controls="swiper-wrapper-376048a18106275e8" aria-disabled="true">
+                            </div>
+                            <div class="swiper-testimonials-button-next swiper-button-next mt-0 position-relative rounded-start-0 rounded-4 end-0 width-5x height-5x rounded-circle bg-transparent text-dark border"
+                                tabindex="0" role="button" aria-label="Next slide"
+                                aria-controls="swiper-wrapper-376048a18106275e8" aria-disabled="false">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-dark">
+                    <div class="col-lg-12">
+
+                        <!--Swiper slider testimonials-->
+                        <div
+                            class="swiper-container swiper-testimonials swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight">
+                            <div class="swiper-wrapper" id="swiper-wrapper-376048a18106275e8" aria-live="polite"
+                                style="height: 404px; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                                <!--Slide-->
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+                                    style="width: 412px; margin-right: 30px;">
+                                    <div class="position-relative">
+                                        <div class="mb-4 flex-grow-1 px-3 px-4 py-5 border text-dark rounded-3">
+                                            <div class="mb-3 text-warning">
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                            </div>
+                                            <p class="fw-semibold fs-5 mb-0">
+                                                Dolore veniam adipisicing adipisicing veniam cillum exercitation id
+                                                reprehenderit. Et amet exercitation id esse aliqua et reprehenderit
+                                                minim consequat nisi id adipisicing sunt ut. Amet consequat enim officia
+                                                cillum sit in sint veniam deserunt cupidatat ut.
+                                            </p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+
+                                            <div class="position-relative me-3">
+                                                <!--Avatar Image-->
+                                                <img class="position-relative avatar lg rounded-circle p-1"
+                                                    src="assets/img/avatar/4.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="mb-0 fw-semibold">Nala Goins</p>
+                                                <small class="font-serif">Participante</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Slide-->
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 6"
+                                    style="width: 412px; margin-right: 30px;">
+                                    <div class="position-relative">
+                                        <div class="mb-4 flex-grow-1 px-3 px-4 py-5 border text-dark rounded-3">
+                                            <div class="mb-3 text-warning">
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                            </div>
+                                            <p class="fw-semibold fs-5 mb-0">
+                                                “Dolore veniam adipisicing adipisicing veniam cillum exercitation id
+                                                reprehenderit. Et amet exercitation id esse aliqua et reprehenderit
+                                                minim consequat nisi id adipisicing sunt ut. Amet consequat enim officia
+                                                cillum sit in sint veniam deserunt cupidatat ut.”
+                                            </p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+
+                                            <div class="position-relative me-3">
+                                                <img class="position-relative avatar lg rounded-circle p-1"
+                                                    src="assets/img/avatar/5.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Lilja Peltola</h5>
+                                                <small class="text-muted font-serif">Full stack developer,
+                                                    Toronto</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Slide-->
+                                <div class="swiper-slide" role="group" aria-label="3 / 6"
+                                    style="width: 412px; margin-right: 30px;">
+                                    <div class="position-relative">
+                                        <div class="mb-4 flex-grow-1 px-3 px-4 py-5 border text-dark rounded-3">
+                                            <div class="mb-3 text-warning">
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                            </div>
+                                            <p class="fw-semibold fs-5 mb-0">
+                                                “ Dolore veniam adipisicing adipisicing veniam cillum exercitation id
+                                                reprehenderit. Et amet exercitation id esse aliqua et reprehenderit
+                                                minim consequat nisi id adipisicing sunt ut. Amet consequat enim officia
+                                                cillum sit in sint veniam deserunt cupidatat ut. ”
+                                            </p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+
+                                            <div class="position-relative me-3">
+                                                <!--Avatar Image-->
+                                                <img class="position-relative avatar lg rounded-circle p-1"
+                                                    src="assets/img/avatar/6.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Adam Macofey</h5>
+                                                <small class="font-serif">CEO, Physics, Stockholm</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Slide-->
+                                <div class="swiper-slide" role="group" aria-label="4 / 6"
+                                    style="width: 412px; margin-right: 30px;">
+                                    <div class="position-relative">
+                                        <div class="mb-4 flex-grow-1 px-3 px-4 py-5 border text-dark rounded-3">
+                                            <div class="mb-3 text-warning">
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                            </div>
+                                            <p class="fw-semibold fs-5 mb-0">
+                                                “ Loved working with the beautiful theme. Everything clean and
+                                                professional,
+                                                also very helpful throughout the customisation. Looking forward to
+                                                buy more
+                                                license of Assan again in the future.”
+                                            </p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+
+                                            <div class="position-relative me-3">
+                                                <!--Avatar Image-->
+                                                <img class="position-relative avatar lg rounded-circle p-1"
+                                                    src="assets/img/avatar/7.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Alex Lee</h5>
+                                                <small class="text-muted font-serif">Developer, Barcelona</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Slide-->
+                                <div class="swiper-slide" role="group" aria-label="5 / 6"
+                                    style="width: 412px; margin-right: 30px;">
+                                    <div class="position-relative">
+                                        <div class="mb-4 flex-grow-1 px-3 px-4 py-5 border text-dark rounded-3">
+                                            <div class="mb-3 text-warning">
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                            </div>
+                                            <p class="fw-semibold fs-5 mb-0">
+                                                “ Their design delivery framework is fantastic and it really helped
+                                                us all get
+                                                on the same page from day one. The team has delivered a strong brand
+                                                identity and a seamless UI
+                                                which we can’t wait to put live and begin testing. ”
+                                            </p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+
+                                            <div class="position-relative me-3">
+                                                <!--Avatar Image-->
+                                                <img class="position-relative avatar lg rounded-circle p-1"
+                                                    src="assets/img/avatar/8.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Jayden Massey</h5>
+                                                <small class="text-muted font-serif">UI UX master, Warsaw</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Slide-->
+                                <div class="swiper-slide" role="group" aria-label="6 / 6"
+                                    style="width: 412px; margin-right: 30px;">
+                                    <div class="position-relative">
+                                        <div class="mb-4 flex-grow-1 px-3 px-4 py-5 border text-dark rounded-3">
+                                            <div class="mb-3 text-warning">
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                                <i class="bx bx-star small"></i>
+                                            </div>
+                                            <p class="fw-semibold fs-5 mb-0">
+                                                “ Their design delivery framework is fantastic and it really helped
+                                                us all get
+                                                on the same page from day one. The team has delivered a strong brand
+                                                identity and a seamless UI
+                                                which we can’t wait to put live and begin testing. ”
+                                            </p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-start">
+
+                                            <div class="position-relative me-3">
+                                                <img class="position-relative avatar lg rounded-circle p-1"
+                                                    src="assets/img/avatar/9.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-0">Raymond Atkins</h5>
+                                                <small class="text-muted font-serif">Entrepreneur, Los Angeles</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-10 col-xl-9 mx-auto text-center">
+
+                    <h3 class="mb-4 fw-bolder text-center mb-6 text-gradient-light" data-aos="fade-up">
+                        Unete a todos las miles de personas que vivieron la experiencia de las master class de ERGO.
+                    </h3>
+
+                </div>
+
+                <div class="col-lg-10 col-xl-9 mx-auto text-center">
+
+                    <h3 class="mb-4 display-4 text-dark" data-aos="fade-up">
+                        ¡No te lo pierdas!
+                    </h3>
+
+                </div>
+
+                <div class="col-lg-10 col-xl-9 mx-auto text-center" data-aos="fade-left" data-aos-delay="150">
+                    <a href="#!" class="btn btn-outline-primary btn-hover-arrow hover-lift">
+                        <span>Estoy listo para ser un VIP</span>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-10 col-xl-9 mx-auto text-center">
+
+
+                </div>
+
+            </div>
+        </section>
+
 
         <section class="bg-gradient-secondary text-white position-relative">
             <svg class="position-absolute top-0 start-0 text-white w-50 h-auto w-lg-80" width="136" height="76"
@@ -404,30 +869,38 @@
             </svg>
             <div class="container py-9 py-lg-11 position-relative z-index-1">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7 text-center mx-auto">
-                        <h2 class="mb-4 display-4 " data-aos="fade-down">
-                            Conectate con nosotros
-                        </h2>
-                        <div data-aos="fade-up">
-                            <a href="https://www.instagram.com/ergocapitalfx/"
-                                class="d-inline-block mb-1 me-2 si rounded-pill si-hover-instagram" target="_blank">
-                                <i class="bx bxl-instagram fs-2"></i>
-                                <i class="bx bxl-instagram fs-2"></i>
-                            </a>
-                            <!-- Social button -->
-                            <a href="#!" class="d-inline-block mb-1 me-2 si rounded-pill si-hover-twitter">
-                                <i class="bx bxl-twitter fs-2"></i>
-                                <i class="bx bxl-twitter fs-1"></i>
-                            </a>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                    <div class="col-lg-10 col-xl-9 mx-auto text-center">
 
+                        <h2 class="display-4 mb-4" data-aos="fade-up">
+                            Miles de vidas transformadas
+                        </h2>
+                        <!--Divider line-->
+                        <span class="width-7x pt-1 mx-auto bg-gradient-primary d-table" data-aos="fade-down"></span>
+                        <br>
+                        <h3 class="mb-4 text-center mb-6 text-gradient-light" data-aos="fade-up">
+                            "ERGO sigue elevando el estandar del trading dia a dia. A traves de nuestras master class,
+                            eventos que cambian tu vida y tutorias de alto nivel, cambiaremos millones de vidas en todo
+                            el Perú y el mundo"
+                        </h3>
 
                     </div>
+
+
+                    <div class="col col-lg-10 col-xl-8 mx-lg-auto">
+
+                        <div class="ratio ratio-21x9" data-aos="fade-up" data-aos-delay="150">
+                            <iframe src="https://player.vimeo.com/video/167434033?title=0&amp;byline=0&amp;portrait=0"
+                                width="620" height="347" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <br><br><br>
+
+                    <div class="col-lg-10 col-xl-9 mx-auto text-center" data-aos="fade-left" data-aos-delay="150">
+                        <a href="#!" class="btn btn-primary btn-hover-arrow hover-lift">
+                            <span>Obtener mi ticket</span>
+                        </a>
+                    </div>
+
                     <!--End Col-->
                 </div> <!-- / .row -->
             </div> <!-- / .container -->
@@ -547,58 +1020,110 @@
 
     <script src="assets/vendor/node_modules/js/swiper-bundle.min.js"></script>
     <script>
-        //swiper-3
-        var swiperProjects = new Swiper('.swiper-projects', {
+        //Timeline progressbar 
+        var sliderThumbs = new Swiper('.progress-swiper-thumbs', {
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            history: false,
+            breakpoints: {
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 16,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 16,
+                },
+            },
+            on: {
+                'afterInit': function (swiper) {
+                    swiper.el.querySelectorAll('.swiper-pagination-progress-inner')
+                        .forEach($progress => $progress.style.transitionDuration =
+                            `${swiper.params.autoplay.delay}ms`)
+                }
+            }
+        });
+        var swiperClassic = new Swiper(".swiper-classic", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            grabCursor: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            effect: "creative",
+            creativeEffect: {
+                prev: {
+                    shadow: true,
+                    translate: ["-20%", 0, -1],
+                },
+                next: {
+                    translate: ["100%", 0, 0],
+                },
+            },
+            thumbs: {
+                swiper: sliderThumbs
+            },
+        });
+
+        //swiper -partners
+        var swiperPartners5 = new Swiper(".swiper-partners", {
+            slidesPerView: 2,
+            loop: true,
+            spaceBetween: 16,
+            autoplay: true,
+            breakpoints: {
+                768: {
+                    slidesPerView: 4
+                },
+                1024: {
+                    slidesPerView: 5
+                }
+            },
+            pagination: {
+                el: ".swiper-partners-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-partners-button-next",
+                prevEl: ".swiper-partners-button-prev"
+            }
+        });
+
+
+        //swiper-Testimonials
+        var swiperTestimonails = new Swiper(".swiper-testimonials", {
             autoHeight: true,
             spaceBetween: 16,
             breakpoints: {
                 640: {
                     slidesPerView: 1,
-                    spaceBetween: 16,
+                    spaceBetween: 16
                 },
                 768: {
                     slidesPerView: 2,
-                    spaceBetween: 16,
+                    spaceBetween: 16
                 },
                 1024: {
-                    slidesPerView: 2,
-                    spaceBetween: 16,
-                },
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
             },
             pagination: {
-                el: '.swiperProjects-pagination',
-                clickable: true,
+                el: ".swiper-testimonials-pagination",
+                clickable: true
             },
             navigation: {
-                nextEl: '.swiperProjects-button-next',
-                prevEl: '.swiperProjects-button-prev',
-            },
-        })
+                nextEl: ".swiper-testimonials-button-next",
+                prevEl: ".swiper-testimonials-button-prev"
+            }
+        });
 
-        //swiper-Testimonials
-        var swiperTestmonials = new Swiper('.swiper-quotes', {
-            loop: true,
-            grabCursor: true,
-            speed: 600,
-            autoHeight: true,
-            navigation: {
-                nextEl: '.swiperTestimonials-button-next',
-                prevEl: '.swiperTestimonials-button-prev',
-            },
-        })
-        var swiper = new Swiper('.swiper-people', {
-            spaceBetween: 0,
-            effect: 'fade',
-            loop: true,
-            grabCursor: true,
-            speed: 600,
-        })
-        // Link together the navigation of both swipers
-        var swiperQuotes = document.querySelector('.swiper-quotes').swiper
-        var swiperPeople = document.querySelector('.swiper-people').swiper
-
-        swiperQuotes.controller.control = swiperPeople
-        swiperPeople.controller.control = swiperQuotes
     </script>
 </body>
 
